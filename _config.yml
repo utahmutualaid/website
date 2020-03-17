@@ -1,0 +1,40 @@
+title: Utah Valley Mutual Aid
+author: 
+email: utahvalleymutualaid@gmail.com
+description: > # this means to ignore newlines until "show_exerpts:"
+  Organizing resources & support for our communities during the COVID–19 pandemic.
+show_excerpts: false # set to true to show excerpts on the homepage
+baseurl: 
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+
+permalink: /posts/:title/
+texture:
+  title: Utah Valley Mutual Aid
+  tagline: Organizing resources & support for our communities during the COVID–19 pandemic.
+  date_format: "%b %-d, %Y"
+  style: blue
+  showNav: true
+  showPicker: false
+
+  # generate social links in footer
+  social_links:
+    twitter: utahmutualaid
+    github:  utahmutualaid
+    rss: rss
+ 
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - about.md
+
+# Build settings
+remote_theme: thelehhman/texture
+theme: texture
+
+plugins:
+  - jekyll-seo-tag
