@@ -81,10 +81,11 @@ header {
 			color: #fff;
 			float: left;
 			i {
+				margin-right: 24px;
 				&:first-child::before {
 					margin-left: 0;
 				}
-				@include fluidType(26px, 34px);
+				@include fluidType(34px, 48px);
 				transition: color .3s;
 				&:hover {
 					color: $gray;
