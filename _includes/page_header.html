@@ -2,6 +2,9 @@
 	<h1>{{ site.texture.title }}</h1>
 	<h2>{{ site.texture.tagline }}</h2>
 	<ul class="social">
+		{%- if site.texture.social_links.facebook -%}
+			<a href="{{ site.texture.social_links.facebook }}"><li><i class="icon-facebook-circled"></i></li></a>
+		{%- endif -%}
 		{%- if site.texture.social_links.github -%}
 			<a href="https://github.com/{{ site.texture.social_links.github }}"><li><i class="icon-github-circled"></i></li></a>
 		{%- endif -%}
