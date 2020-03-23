@@ -22,8 +22,9 @@ texture:
 
   # generate social links in footer
   social_links:
-    github:  utahmutualaid
     facebook: https://www.facebook.com/groups/utahmutualaid/
+    github: utahmutualaid
+    instagram: https://www.instagram.com/utahmutualaid/
     twitter: utahmutualaid
     rss: rss
  
