@@ -5,10 +5,11 @@ title: About
 
 ## Our Volunteers
 
-- Katy
 - Cesar
 - Italu
 - Katelyn
+- Katy
+- Tod
 - [And many others...](https://www.facebook.com/groups/utahmutualaid/)
 
 ## Our Network
