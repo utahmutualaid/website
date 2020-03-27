@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Utah Valley Mutual Aid – Solidarity over charity.
 ---
 
 ## Solidarity over charity.
