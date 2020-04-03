@@ -3,7 +3,7 @@
 @import 'begin';
 @import 'syntax';
 
-$linkColor: #999;
+$linkColor: #333;
 $mobileW: 768px;
 $smallMobileW: 480px;
 $bigScreenW: 1600px;
@@ -28,6 +28,7 @@ body {
 a {
 	color: $linkColor;
 	text-decoration: none;
+	font-weight: 600;
 	transition: border-bottom 0.4s;
 	&:hover {
 		border-bottom: 0.5px solid $linkColor;
@@ -245,7 +246,7 @@ header {
 			float: left;
 			// margin: 5px;
 			&:not(:first-child){
-				border-left: 0;
+				// border-left: 0;
 			}
 			padding: 10px 25px;
 			// border-radius: 4px;
@@ -258,4 +259,12 @@ header {
 			margin-right: 12px;
 		}
 	}
+}
+
+.foot {
+	font-size: .9rem;
+	font-style: italic;
+	margin: 8rem 0 1rem 2rem;
+	padding-top: 1rem;
+	border-top: 1px solid $linkColor;
 }
